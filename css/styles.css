@@ -1,0 +1,158 @@
+
+h1{
+  margin: 60px auto 0 auto;
+  font-family: 'Licorice', cursive;
+  font-size: 625%;
+  color: #145A32;
+  line-height: 200%;
+}
+
+/*100% is 16 px*/
+
+h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2rem;
+    color: #145A32;
+    font-weight: normal;
+}
+
+h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #145A32;
+}
+
+hr{
+  clear: both;
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color:black;
+  width: 10%;
+  margin: 50px auto;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    background-color: #D4EFDF;
+}
+
+p{
+  line-height: 2;
+}
+
+.intro{
+  width:30%;
+  margin: auto auto 30px auto;
+}
+
+.profilePic{
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.top-container{
+  background-color: #8A9A5B;
+  border:20px;
+  padding-top: 100px;
+}
+
+.top_cloud{
+  position: absolute;
+  right: 20%;
+  top: 5%;
+
+}
+
+.bottom_cloud{
+  position: absolute;
+  left:15%;
+
+}
+
+
+
+.skill-row{
+  width:50%;
+  margin : 100px auto 100px auto;
+  text-align: left;
+}
+
+.skill1-image{
+  width: 50%;
+  float: left;
+  margin-right:10%;
+}
+
+.skill2-image{
+  width: 50%;
+  float: right;
+  margin-left:10%;
+}
+
+.skill3-image{
+  width: 50%;
+  float: left;
+  margin-right:10%;
+}
+
+.contact-me{
+    padding-bottom: 40px;
+    line-height: 2;
+}
+
+.bottom-container{
+  background-color: #1D8348;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.btn {
+  background: #1D8348;
+  background-image: -webkit-linear-gradient(top, #1D8348, #1D8348);
+  background-image: -moz-linear-gradient(top, #1D8348, #1D8348);
+  background-image: -ms-linear-gradient(top, #1D8348, #1D8348);
+  background-image: -o-linear-gradient(top, #1D8348, #1D8348);
+  background-image: linear-gradient(to bottom, #1D8348, #1D8348);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #55cf88;
+  background-image: -webkit-linear-gradient(top, #55cf88, #42ab6e);
+  background-image: -moz-linear-gradient(top, #55cf88, #42ab6e);
+  background-image: -ms-linear-gradient(top, #55cf88, #42ab6e);
+  background-image: -o-linear-gradient(top, #55cf88, #42ab6e);
+  background-image: linear-gradient(to bottom, #55cf88, #42ab6e);
+  text-decoration: none;
+}
+
+.contact-message{
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+a{
+  color:black ;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.copyright{
+  color:white;
+  font-size: 0.75rem;
+  padding-top: 20px;
+}
+
+a:hover{
+  color:#145A32;
+}
