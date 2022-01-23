@@ -1,0 +1,22 @@
+body{
+  background-color: #145A32;
+  text-align: center;
+}
+
+h1{
+  color: white;
+  font-size: 200%
+
+}
+
+.work{
+  margin-top: 250px;
+}
+
+.navbar{
+  background-color: #8A9A5B;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}

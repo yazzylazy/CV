@@ -11,7 +11,7 @@ h1{
 
 h2{
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 2rem;
+    font-size: 3rem;
     color: #145A32;
     font-weight: normal;
 }
@@ -23,11 +23,10 @@ h3{
 
 hr{
   clear: both;
-  border-style: dotted none none;
-  border-width: 10px;
-  border-color:black;
-  width: 10%;
+  border-width: 0px;
+  width: 0px;
   margin: 50px auto;
+  visibility:hidden;
 }
 
 body{
@@ -37,18 +36,28 @@ body{
     background-color: #D4EFDF;
 }
 
+.navbar{
+  background-color: #8A9A5B;
+}
+
+.navbar-nav {
+    margin-left: auto;            
+}
+
 p{
   line-height: 2;
 }
 
 .intro{
   width:30%;
-  margin: auto auto 30px auto;
+  margin: 3% auto 30px auto;
+
 }
 
 .profilePic{
   border-radius: 50%;
   margin-top: 10px;
+  margin-bottom: 3%;
 }
 
 .top-container{
@@ -58,9 +67,9 @@ p{
 }
 
 .top_cloud{
-  position: absolute;
-  right: 20%;
-  top: 5%;
+  position: relative;
+  right: -22%;
+  bottom: 30%;
 
 }
 
@@ -78,21 +87,28 @@ p{
   text-align: left;
 }
 
+
+
 .skill1-image{
-  width: 50%;
-  float: left;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   margin-right:10%;
+
 }
 
 .skill2-image{
-  width: 50%;
-  float: right;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   margin-left:10%;
+
 }
 
 .skill3-image{
-  width: 50%;
-  float: left;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
   margin-right:10%;
 }
 
